@@ -1,6 +1,33 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@MrRysov 
+annblok
+/
+BurgerPublic
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Burger/style/main.css
+@annblok
+annblok Add files
+Latest commit d2ae1cd on 2 Dec 2021
+ History
+ 1 contributor
+175 lines (174 sloc)  3.09 KB
+  
 * {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: 'Nunito Sans', sans-serif;
@@ -9,10 +36,10 @@ body {
     background: linear-gradient(180deg, #0C4C7B -100%, #1E2F40 100%);
 }
 .container {
-max-width: 1180px;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 .text {
     color: #FAF9F9;
@@ -35,25 +62,23 @@ h1 span {
     display: block;
     margin-bottom: 10px;
 }
-.text p{
+.text p {
     font-family: 'Lato', sans-serif;
     font-size: 19px;
-  /*  color: #DEDEDE;
-    font-weight: 400; */
-    line-height: 1.4;
+    line-height: 1,4;
     margin-bottom: 42px;
 }
 .main a,
 .promo a {
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
     color: #1E2F40;
     background-color: #FBB731;
     border-radius: 5px;
     text-decoration: none;
+    padding: 20px 45px;
     display: inline-block;
-    padding: 20px 45px; 
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
 }
 .visual {
     flex-grow: 1;
@@ -80,13 +105,16 @@ h1 span {
     flex: 0 0 49%;
     color: #fff;
     box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .promo-left {
-    background: url(../image/promo-left.png);
+    background-image: url(../image/promo-left.png);
     padding: 116px 50px;
 }
 .promo-right {
-    background: url(../image/promo-right.png);
+    background-image: url(../image/promo-right.png);
     padding: 102px 50px;
 }
 .sale {
@@ -118,7 +146,7 @@ h1 span {
     margin-bottom: 20px;
 }
 .free {
-    font-size: 40px;
+    font-size: 44px;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -128,6 +156,7 @@ h1 span {
     padding-top: 117px;
     padding-bottom: 106px;
 }
+
 .logo {
     width: 63px;
     height: 56px;
@@ -146,8 +175,8 @@ h1 span {
     list-style-type: none;
 }
 .item li {
-    font-family: 'Lato', sans-serif;
     margin-bottom: 9px;
+    font-family: 'Lato', sans-serif;
     font-size: 15px;
     color: #FAF9F9;
     font-weight: 700;
@@ -157,7 +186,7 @@ h1 span {
     color: #DEDEDE;
     text-decoration: none;
     font-weight: 400;
-} 
+}
 .item span {
     color: #DEDEDE;
     display: block;
@@ -171,3 +200,15 @@ h1 span {
 .tel li {
     margin-bottom: 12px;
 }
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
